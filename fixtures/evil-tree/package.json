@@ -1,0 +1,10 @@
+{
+  "name": "evil-tree-demo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "evil-pkg": "1.0.0",
+    "clean-pkg": "1.0.0",
+    "nested-evil": "1.0.0"
+  }
+}
