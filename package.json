@@ -1,0 +1,40 @@
+{
+  "name": "hooktree",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "mcbbugu",
+  "bin": {
+    "hooktree": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Print the install-lifecycle script tree from a lockfile before you install.",
+  "keywords": [
+    "cli",
+    "npm",
+    "lockfile",
+    "security",
+    "install-scripts",
+    "supply-chain"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcbbugu/hooktree.git"
+  },
+  "homepage": "https://github.com/mcbbugu/hooktree#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test test/*.test.ts",
+    "start": "tsx src/cli.ts"
+  }
+}
